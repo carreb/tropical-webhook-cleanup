@@ -1,2 +1,7 @@
 # tropical-webhook-cleanup
-A bot that deletes any embeds sent by a tropical webhook containing hex #000000 rancher's boots
+## how to use
+1. download the source code as zip
+2. get your discord bot token from https://discord.com/developers/applications
+3. put your discord bot token into bot_token.txt
+4. run main.py in console with python main.py or python3 main.py  
+i made this in like 30 seconds so just add an issue if you have any problems or suggestions
