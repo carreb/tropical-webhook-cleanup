@@ -4,10 +4,11 @@
 2. get your discord bot token from https://discord.com/developers/applications
 3. put your discord bot token into bot_token.txt
 4. run main.py in console with python main.py or python3 main.py  
-i made this in like 30 seconds so just add an issue if you have any problems or suggestions
-## branches
-these will most likely not be merged into master i just want them there so that people can choose what features they would like
-###### master
-the master branch has only the function to delete the falsely flagged embeds.
-###### counter
-contains the functionality to delete falsely flagged embeds and counts how many it has deleted
+i made this in like 30 seconds so just add an issue if you have any problems or suggestions  
+
+##how to use the redirect function
+1. make sure developer mode is enabled on discord  
+you can do this by going to user settings > advanced, and then switching developer mode to enabled.
+2. get the channel you want the embeds to redirect into's id by right clicking and clicking "Copy ID"
+3. paste the channel id into redirect_channel.txt
+4. go into options.txt and change redirect=FALSE to redirect=TRUE [**THIS IS CASE SENSITIVE**]
