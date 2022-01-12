@@ -6,7 +6,7 @@
 4. run main.py in console with python main.py or python3 main.py  
 i made this in like 30 seconds so just add an issue if you have any problems or suggestions  
 
-##how to use the redirect function
+##  how to use the redirect function
 1. make sure developer mode is enabled on discord  
 you can do this by going to user settings > advanced, and then switching developer mode to enabled.
 2. get the channel you want the embeds to redirect into's id by right clicking and clicking "Copy ID"
