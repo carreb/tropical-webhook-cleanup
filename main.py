@@ -16,9 +16,11 @@ bot = commands.Bot(command_prefix=BOT_PREFIX, case_insensitive=True)
 #setup config vars
 config = configparser.ConfigParser()
 config.read('config.ini')
-token = config['info']['token']
-redirectbool = config['info']['redirect-enabled'].lower()
-redirectchannel = config['info']['redict-channel']
+info = config['info']
+token = info['token']
+redirectbool = info['redirectEnabled']
+r = str(redirectbool).lower()
+redirectchannel = info['redirectChannel']
 with open("counter.txt", "r+") as f:
     counter = [i.strip() for i in f.readlines()][0]
 
@@ -65,7 +67,7 @@ async def on_message(message):
                 await message.delete()
                 addtocounter += 1
                 return
-        elif redirectbool == "false":
+        elif r == "false":
             if message.author == bot.user:
                 return
             else:
