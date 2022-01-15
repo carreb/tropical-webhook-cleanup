@@ -1,6 +1,6 @@
 # tropical-webhook-cleanup
 ## how to use
-1. download the source code as zip
+1. [download the latest release](https://github.com/carreb/tropical-webhook-cleanup/releases/)
 2. get your discord bot token from https://discord.com/developers/applications
 3. set up your config.ini file (paste bot token, and setup [redirect](https://github.com/carreb/tropical-webhook-cleanup#how-to-use-the-redirect-function) if you want it)
 4. run main.py in console with python main.py or python3 main.py  
