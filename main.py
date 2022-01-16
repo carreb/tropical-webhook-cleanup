@@ -67,7 +67,7 @@ async def on_message(message):
                 await message.delete()
                 addtocounter += 1
                 return
-        elif r == "false":
+        elif r == "true":
             if message.author == bot.user:
                 return
             else:
