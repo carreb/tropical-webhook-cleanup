@@ -10,7 +10,7 @@
 you can do this by going to user settings > advanced, and then switching developer mode to enabled.
 2. get the channel you want the embeds to redirect into's id by right clicking and clicking "Copy ID"
 3. paste the channel id into redirect_channel.txt
-4. go into options.txt and change redirect=FALSE to redirect=TRUE [**THIS IS CASE SENSITIVE**]
+4. go into config.ini and change redirect=FALSE to redirect=TRUE [**THIS IS CASE SENSITIVE**]
 
 ## other random information
 as of right now i'm probably done developing this, it's supposed to be simple and easy to use, so i don't want to over clutter it.  
