@@ -17,4 +17,4 @@ as of right now i'm probably done developing this, it's supposed to be simple an
 however, if you run into any bugs or problems, please do leave an issue! i'll try my best to fix any problem you may have with this. ok bye have fun
 
 ## in development:
-i've decided that i want to completely finish this repository and be able to archive it. #6 is the first feature i will be adding in order to do this.
+i've decided that i want to completely finish this repository and be able to archive it. [#6](https://github.com/carreb/tropical-webhook-cleanup/issues/6) is the first feature i will be adding in order to do this.
