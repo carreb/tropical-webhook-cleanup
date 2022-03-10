@@ -18,4 +18,4 @@ however, if you run into any bugs or problems, please do leave an issue! i'll tr
 
 ## in development:
 i've decided that i want to completely finish this repository and be able to archive it. [#7](https://github.com/carreb/tropical-webhook-cleanup/issues/7) will show all planned/in development features for v2. once v2 is released this project will be archived.  
-this is put on hold for now
+this is put on hold indefinitely due to the addition of custom dyes to the game.
